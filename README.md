@@ -52,10 +52,3 @@ camadas de defesa que tornam o ataque inviável.
 
 # Defesa: aplicar os arquivos da pasta defesa/ na VM VÍTIMA e repetir o ataque.
 ```
-
-## Vídeo demonstrativo
-
-Demonstração do ataque bem-sucedido (antes da defesa) e da eficácia dos
-mecanismos de bloqueio e 2FA (depois):
-
-**Link (YouTube, não listado):** _<COLE O LINK AQUI>_
