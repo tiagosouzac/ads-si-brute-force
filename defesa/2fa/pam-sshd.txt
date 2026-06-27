@@ -1,0 +1,6 @@
+# Trecho adicionado em /etc/pam.d/sshd  (na VM VITIMA - Ubuntu)
+#
+# Ativa o modulo de autenticacao de dois fatores (TOTP) no fluxo de login do SSH.
+# Com "required", o login passa a exigir o segundo fator alem da senha.
+
+auth required pam_google_authenticator.so

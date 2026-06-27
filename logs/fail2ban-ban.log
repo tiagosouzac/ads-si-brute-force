@@ -1,0 +1,10 @@
+2026-06-26 21:09:12,608 fail2ban.actions        [1939]: NOTICE  [sshd] Ban 192.168.64.7
+2026-06-26 21:21:21,693 fail2ban.actions        [1939]: NOTICE  [sshd] Ban 192.168.64.7
+2026-06-26 21:34:16,424 fail2ban.actions        [1222]: NOTICE  [sshd] Ban 192.168.64.7
+2026-06-26 21:38:55,905 fail2ban.actions        [1220]: NOTICE  [sshd] Restore Ban 192.168.64.7
+2026-06-26 21:39:46,890 fail2ban.actions        [1222]: NOTICE  [sshd] Restore Ban 192.168.64.7
+2026-06-27 00:44:54,974 fail2ban.actions        [1237]: NOTICE  [sshd] Ban 192.168.64.7
+2026-06-27 00:58:09,433 fail2ban.actions        [1237]: NOTICE  [sshd] Ban 192.168.64.7
+2026-06-27 01:01:56,951 fail2ban.actions        [1220]: NOTICE  [sshd] Restore Ban 192.168.64.7
+2026-06-27 01:05:18,292 fail2ban.actions        [1220]: NOTICE  [sshd] Ban 192.168.64.7
+2026-06-27 01:37:40,326 fail2ban.actions        [2954]: NOTICE  [sshd] Ban 192.168.64.7

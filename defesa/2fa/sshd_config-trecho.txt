@@ -1,0 +1,9 @@
+# Trecho de /etc/ssh/sshd_config  (na VM VITIMA - Ubuntu)
+#
+# Habilita o desafio interativo (codigo do 2FA) e o uso do PAM pelo SSH.
+# Observacao: em versoes mais antigas a primeira opcao chama-se
+# "ChallengeResponseAuthentication". Confirme que nao ha uma diretiva
+# antiga com valor "no" sobrescrevendo estas.
+
+KbdInteractiveAuthentication yes
+UsePAM yes

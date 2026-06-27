@@ -1,0 +1,15 @@
+# Passo a passo da configuracao do 2FA (executado como o usuario a proteger)
+#
+# 1) Gerar o segredo TOTP e parear com o app autenticador do celular:
+#       google-authenticator
+#    Respostas usadas:
+#       - tokens time-based?                         y
+#       - atualizar ~/.google_authenticator?          y
+#       - proibir reuso do mesmo token?               y
+#       - aumentar a janela de tempo?                 n
+#       - habilitar rate-limiting?                    y
+#    Guardar os "emergency scratch codes" em local seguro (fora do repositorio!).
+#
+# 2) Plugar o modulo no PAM do SSH:   ver pam-sshd.txt
+# 3) Habilitar o desafio no sshd:     ver sshd_config-trecho.txt
+# 4) Reiniciar o servico:             sudo systemctl restart ssh

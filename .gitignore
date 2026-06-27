@@ -1,0 +1,5 @@
+# Nunca versionar segredos nem hashes reais
+hashes.txt
+*.google_authenticator
+*scratch*
+*secret*

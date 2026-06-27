@@ -1,0 +1,16 @@
+# /etc/fail2ban/jail.local  (na VM VITIMA - Ubuntu)
+#
+# Boas praticas: nunca editar os arquivos .conf (sobrescritos em updates);
+# configuracoes proprias vao em arquivos .local, que tem prioridade.
+#
+# Camada 1 de defesa: bloqueio automatico de IP apos tentativas falhas.
+
+[sshd]
+enabled  = true
+maxretry = 3      # bane o IP apos 3 tentativas de login malsucedidas
+findtime = 300    # janela de contagem das tentativas (segundos)
+bantime  = 600    # duracao do bloqueio no firewall (segundos = 10 min)
+
+# Em versoes do Ubuntu que enviam os logs ao journald (em vez de /var/log/auth.log),
+# descomente a linha abaixo para o fail2ban ler a fonte correta:
+# backend = systemd
